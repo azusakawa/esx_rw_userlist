@@ -1,0 +1,32 @@
+Config = {}
+Config.jobIcons = {
+	["person"] = "👱",
+	["newbie"] = "🌱",
+	["ems"] = "🚑",
+	["cop"] = "👮🏻",
+	["uber"] = "🚖",
+	["repair"] = "🔧",
+	["shh"] = "⚔",
+	["mafia"] = "💀",
+	["gm"] = "🚧",
+	["tow"] = "⛄",
+	["kys"] = "👔",
+	["helper"] = "🐥",
+	["inspector"] = "🔰",
+	["admin"] = "🌟"
+}
+Config.categories = {
+	["all"] = {1, "總人口", "👨‍⚕️"},
+	["ems"] = {2, "醫護", Config.jobIcons.ems},
+	["cop"] = {3, "警察", Config.jobIcons.cop},
+	["uber"] = {4, "司機", Config.jobIcons.uber},
+	["repair"] = {5, "技工", Config.jobIcons.repair},
+	["shh"] = {6, "黑人社會", Config.jobIcons.shh},
+	["mafia"] = {7, "白人社會", Config.jobIcons.mafia},
+	["gm"] = {8, "交通警察", Config.jobIcons.gm},
+	["tow"] = {9, "貨運公司", Config.jobIcons.tow},
+	["kys"] = {10, "服飾店", Config.jobIcons.kys},
+	["helper"] = {11, "屠宰場", Config.jobIcons.helper},
+	["admin"] = {12, "管理員", Config.jobIcons.admin}
+}
+Config.toggleKey = {113}

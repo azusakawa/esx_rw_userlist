@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="wrap">
+		<div class="header">
+			<div class="logo-text">真實世界連接用戶</div>
+			<div class="logo"><img src="logo.png"></div>
+			<div id="tabType" class="jobs"></div>
+			<div class="controls"><a href="#" class="btn-close">關閉X</a></div>
+		</div>
+		<div class="playerlist">
+			<table id="playerlistHeader" class="player-list">
+				<tr class="heading">
+					<th>ID</th>
+					<th>名稱</th>
+					<th>職業</th>
+					<th>ID</th>
+					<th>名稱</th>
+					<th>職業</th>
+					<th>ID</th>
+					<th>名稱</th>
+					<th>職業</th>
+				</tr>
+			</table>
+			<div class="playerlistScroller">
+				<table id="playerlist" class="player-list"></table>
+			</div>
+		</div>
+		<div class="serverinfo">
+			👨‍⚕️&nbsp;用戶:&nbsp;<span id="player_count">0</span>/<span
+				id="max_players">0</span>&nbsp;&nbsp;&nbsp;🎥&nbsp;遊戲時間:&nbsp;<span id="play_time">00小時 00分鐘</span>
+		</div>
+	</div>
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
